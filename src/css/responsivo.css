@@ -1,0 +1,33 @@
+@media(max-width: 920px) {
+    .container {
+        flex-direction: column;
+    }
+.right img{
+    width: 100%;
+}
+}
+
+@media(max-width: 420px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .left h1 {
+        font-size: 25px;
+    }
+
+    .left p {
+        font-size: 20px;
+        margin: 30px;
+    }
+
+    .right img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        padding: 30px;
+    }
+}
